@@ -1,2 +1,32 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Virtual Environment ===
 myenv/
+env/
+venv/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === MacOS ===
 .DS_Store
+
+# === VSCode / IDE ===
+.vscode/
+.idea/
+*.swp
+
+# === Logs / Dumps ===
+*.log
+*.out
+*.pid
+
+# === Others ===
+*.bak
